@@ -1,0 +1,58 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "food-donation-tracker-dea3f",
+          "appId": "1:765983182567:android:58e73f981e2b073dd2dc42",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "food-donation-tracker-dea3f",
+          "appId": "1:765983182567:ios:d7758b8afa93ccacd2dc42",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "macos": {
+        "default": {
+          "projectId": "food-donation-tracker-dea3f",
+          "appId": "1:765983182567:ios:d7758b8afa93ccacd2dc42",
+          "uploadDebugSymbols": false,
+          "fileOutput": "macos/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "food-donation-tracker-dea3f",
+          "configurations": {
+            "android": "1:765983182567:android:58e73f981e2b073dd2dc42",
+            "ios": "1:765983182567:ios:d7758b8afa93ccacd2dc42",
+            "macos": "1:765983182567:ios:d7758b8afa93ccacd2dc42",
+            "web": "1:765983182567:web:57bb90b9f5cfcaead2dc42",
+            "windows": "1:765983182567:web:a336c64d265ed31fd2dc42"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "disallowLegacyRuntimeConfig": true,
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ],
+      "predeploy": [
+        "npm --prefix \"$RESOURCE_DIR\" run lint"
+      ]
+    }
+  ]
+}

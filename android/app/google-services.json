@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "765983182567",
+    "firebase_url": "https://food-donation-tracker-dea3f-default-rtdb.firebaseio.com",
+    "project_id": "food-donation-tracker-dea3f",
+    "storage_bucket": "food-donation-tracker-dea3f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:765983182567:android:8aa6b6ba78e41406d2dc42",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjFI7YnFq07sMQ1NMxqAQJNVAv8ou9kxc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:765983182567:android:58e73f981e2b073dd2dc42",
+        "android_client_info": {
+          "package_name": "com.example.foodlink.test1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjFI7YnFq07sMQ1NMxqAQJNVAv8ou9kxc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
